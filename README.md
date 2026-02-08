@@ -34,7 +34,7 @@ LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23
 
 
 
-![架构图](C:\Users\Jack Chen\Desktop\Project\AI-Agent-Developers\code_assistant\pics\framework.png)
+![架构图](./pics/framework.png)
 
 
 
@@ -42,9 +42,9 @@ LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23
 
 (test.py 文件扔给 claude code 自动生成的 FastAPI 项目)
 
-![架构图](C:/Users/Jack Chen/Desktop/Project/AI-Agent-Developers/code_assistant/pics/result-1.png)
+![架构图](./pics/result-1.png)
 
 
 
-![架构图](C:/Users/Jack Chen/Desktop/Project/AI-Agent-Developers/code_assistant/pics/result-2.png)
+![架构图](./pics/result-2.png)
 
