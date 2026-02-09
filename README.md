@@ -46,3 +46,6 @@ LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23
 
 执行项目需要再 config/keys.json 中填入模型对应的 API
 
+
+
+演示视频见链接：https://pan.baidu.com/s/1pT-dSEfDhmwzpRqTkqomcw?pwd=9qsq 提取码: 9qsq 复制这段内容后打开百度网盘手机App，操作更方便哦
