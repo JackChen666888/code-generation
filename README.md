@@ -20,10 +20,6 @@ RAG 通过搭建动态布局（DSL）的领域知识来让模型学习（在对�
 
 ## 参考项目
 
-LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23961cff61a42b52525f3b20b4094d8d2fba1744/docs/docs/tutorials/code_assistant/langgraph_code_assistant.ipynb
-
-
-
 知乎介绍：https://zhuanlan.zhihu.com/p/1976720013428819800
 
 
@@ -40,7 +36,9 @@ LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23
 
 这里通过 FastAPI 快速搭建了一个页面，可以运行 code_solution_agent/web/server.py 来运行，可以在页面看到整个 agent 迭代的过程。
 
-具体的例子可以见 web-example-shown 中的视频和下载的 html 的例子。
+具体的例子可以见 web-example-shown 中的 html 文件。
+
+
 
 **注意，这里是对整个流程进行调试，具体的执行结果需要看 LLM 模型的回复质量以及 RAG 知识库的质量。**
 
