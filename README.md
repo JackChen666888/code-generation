@@ -1,4 +1,4 @@
-### WiseCard 项目 WiseCardPackage 卡片包自动生成项目的探索。
+### WiseCardPackage 卡片包自动生成项目的探索。
 
 
 
@@ -48,4 +48,31 @@ LangGraph 经典实战项目：https://github.com/langchain-ai/langgraph/blob/23
 
 
 
-演示视频见链接：https://pan.baidu.com/s/1pT-dSEfDhmwzpRqTkqomcw?pwd=9qsq 提取码: 9qsq 复制这段内容后打开百度网盘手机App，操作更方便哦
+**未来的可行方案**
+
+![架构图-future](./pics/framework-future.png)
+
+
+
+1. intent recognition （意图识别）： question/reflection 进来后先分析，判断是否需要走 RAG 或者是直接进行 code generation
+2. rag retriever：从 DSL 的知识库中进行向量匹配，匹配出 top-k 个知识，作为 model 的 context 传入给 code generation 中。
+3. code generation：根据描述进行 code generation 或者是 debug
+4. code check（评估）：通过评估来评价 code generation 的质量，同时给予反馈或报错
+5. reflect：总结反馈或报错，重新走到 intent-recognition node
+
+
+
+以此搭建具备自迭代能力的、具有领域知识的 agent。
+
+
+
+
+
+
+
+
+
+
+
+
+
