@@ -1,23 +1,3 @@
-### WiseCardPackage 卡片包自动生成项目的探索。
-
-
-
-## 目标
-
-通过 WiseCardPackage 的具体例子来自动化生成卡片包。
-
-
-
-当前实现思路： LangGraph + RAG 
-
-（由于上下文受限，后续会探索结合 agent skill。其中 agent skill 复杂结合“思维链模式（CoT）” 来规定任务的具体流程，同时在 skill 的 resources 中添加具体的例子来让 LLM 学习。使用 skill 的目的是为了**防止上下文被压缩**）
-
-
-
-RAG 通过搭建动态布局（DSL）的领域知识来让模型学习（在对话的生命周期中学习而不是长期学习）
-
-
-
 ## 参考项目
 
 知乎介绍：https://zhuanlan.zhihu.com/p/1976720013428819800
